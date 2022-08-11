@@ -8,8 +8,8 @@
       "modules": [
         {
         "type": "template",
-        "path": "."
-        },
+        "path": "/"
+        }
       ]
     }
   }
