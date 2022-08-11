@@ -20,5 +20,5 @@
     }
   ],
   "resultMessage": "Pod resource created successfully!",
-  "helpUrl": "https://github.com/kubeshop/monokle-default-templates-plugin"
+  "helpUrl": "https://github.com/mchenetz/monokle-ingress.git"
 }
