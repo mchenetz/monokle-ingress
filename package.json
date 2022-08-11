@@ -6,7 +6,7 @@
     "repository": "https://github.com/mchenetz/monokle-ingress",
     "monoklePlugin": {
       "id": "io.kubeshop.monokle.plugins.monokle-ingress",
-      "helpUrl": "https://github.com/kubeshop/monokle-default-templates-plugin",
+      "helpUrl": "https://github.com/mchenetz/monokle-ingress",
       "modules": [
         {
         "type": "template",
