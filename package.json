@@ -1,7 +1,7 @@
 {
     "name": "monokle-ingress",
     "description": "Monokle Ingress Template",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Michael Chenetz",
     "repository": "https://github.com/mchenetz/monokle-ingress",
     "monoklePlugin": {
