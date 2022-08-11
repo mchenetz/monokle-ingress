@@ -5,7 +5,7 @@
     "author": "Michael Chenetz",
     "repository": "https://github.com/mchenetz/monokle-ingress",
     "monoklePlugin": {
-      "id": "io.kubeshop.monokle.plugins.default-templates",
+      "id": "io.kubeshop.monokle.plugins.monokle-ingress",
       "helpUrl": "https://github.com/kubeshop/monokle-default-templates-plugin",
       "modules": [
         {
