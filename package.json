@@ -6,8 +6,10 @@
     "repository": "https://github.com/mchenetz/monokle-ingress.git",
     "monoklePlugin": {
       "modules": [
+        {
         "type": "template",
         "path": "."
+        }
       ]
     }
   }
