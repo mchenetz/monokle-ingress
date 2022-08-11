@@ -1,0 +1,24 @@
+{
+  "name": "Basic Kubernetes Ingress",
+  "id": "io.portainer.monokle.templates.default.basic-ingress-template",
+  "author": "portainer.io",
+  "version": "1.0.0",
+  "description": "Creates a Ingress",
+  "repository": "https://github.com/mchenetz/monokle-ingress.git",
+  "type": "vanilla",
+  "forms": [
+    {
+      "name": "ingress Settings",
+      "description": "Ingress Settings",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "template.yaml"
+    }
+  ],
+  "resultMessage": "Pod resource created successfully!",
+  "helpUrl": "https://github.com/mchenetz/monokle-ingress.git"
+}

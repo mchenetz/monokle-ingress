@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: [[forms[0].name]]
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: [[forms[0].host]]
+    http:
+      paths:
+      - backend:
+          service:
+            name: [[forms[0].service]]
+            port:
+             number: [[forms[0].port]]
+        path: [[forms[0].path]]
+        pathType: Prefix

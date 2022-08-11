@@ -1,0 +1,28 @@
+{
+    "name": {
+      "ui:title": "Name",
+      "ui:help": "The name of the Ingress"
+    },
+    "namespace": {
+      "ui:title": "Namespace",
+      "ui:help": "The target namespace for the Pod",
+      "ui:widget": "namespaceSelection"
+    },
+    "host": {
+      "ui:title": "host",
+      "ui:help": "The FQDN to martch for the ingress"
+    },
+    "service": {
+      "ui:title": "service",
+      "ui:help": "The backend service name to map to"
+    },
+    "port": {
+      "ui:title": "port",
+      "ui:help": "The backend port to connect to"
+    },
+    "path": {
+      "ui:title": "path",
+      "ui:help": "The path to match after the FQDN"
+    }
+  }
+  
